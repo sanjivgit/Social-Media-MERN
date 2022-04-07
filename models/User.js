@@ -42,14 +42,17 @@ const UserSchema = new mongoose.Schema(
     },
     desc: {
       type: String,
+      default: "",
       max: 50,
     },
     country: {
       type: String,
+      default: "",
       max: 10,
     },
     city: {
       type: String,
+      default: "",
       max: 10,
     },
     relationship: {

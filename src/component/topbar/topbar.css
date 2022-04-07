@@ -97,3 +97,9 @@
   object-fit: cover;
   cursor: pointer;
 }
+
+.rightbarLogout {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}

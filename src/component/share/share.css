@@ -1,6 +1,6 @@
 .share {
   width: 100%;
-  height: 170px;
+  height: auto;
   background-color: white;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 15px -6px rgba(0, 0, 0, 0.68);
@@ -22,6 +22,10 @@
   object-fit: cover;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+.fileBaseStyle {
+  width: 170px;
 }
 
 .shareTopInput {
@@ -63,5 +67,21 @@ hr {
   border-radius: 10px;
   margin-left: auto;
   width: 80px;
+  cursor: pointer;
+}
+
+.fileBaseImg {
+  width: 100%;
+  height: 100%;
+}
+
+.uploadFileBaseImg {
+  position: relative;
+}
+
+.fileBaseImgCancel {
+  position: absolute;
+  top: -5%;
+  right: 0%;
   cursor: pointer;
 }

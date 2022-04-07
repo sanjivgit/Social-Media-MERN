@@ -67,6 +67,11 @@
   font-weight: 800;
   color: white;
   cursor: pointer;
+  outline: none;
+}
+
+.loginRightLoginButton:disabled {
+  cursor: not-allowed;
 }
 
 .loginRightForgot {
